@@ -1,0 +1,52 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Word Guess Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+    <div class='jumbotron bg-primary text-center'>
+        <div class='container text-light text-center'>
+            <h1>90s Music Word Guess</h1>
+            <h2>Press any letter to begin!</h2>
+        </div>
+    </div>
+    <div class="card card-default col-6 mb-2 float-left">
+        <div class="card-header">
+            <h3 class="card-header text-center">Wins</h3><span id="wins">0</span>
+        </div>
+    </div>
+    <div class="card card-default col-6 mb-2">
+        <div class="card-header">
+            <h3 class="card-header text-center">Losses</h3><span id="losses">0</span>
+        </div>
+    </div>
+    <div class="card card-default">
+        <div class="card-header">
+            <h3 class="card-title">Guess Here</h3>
+        <div class="card-body">
+            <h4 id="letters">_ _ _</h4>
+        </div>
+        </div>
+    </div>
+    <div class="card card-default col-6 mb-2 float-left">
+        <div class="card-header">
+            <h3 class="card-header text-center">Wrong Letters</h3><span id="wrongLetters">0</span>
+        </div>
+    </div>
+    <div class="card card-default col-6 mb-2">
+        <div class="card-header">
+            <h3 class="card-header text-center">Letters Left</h3><span id="lettersLeft">0</span>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
